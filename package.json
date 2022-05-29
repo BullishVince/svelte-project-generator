@@ -1,0 +1,25 @@
+{
+  "name": "svelte-project-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm i",
+    "create": "node ./scripts/main.js",
+    "help": "node ./scripts/main.js -h"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BullishVince/svelte-project-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BullishVince/svelte-project-generator/issues"
+  },
+  "homepage": "https://github.com/BullishVince/svelte-project-generator#readme",
+  "devDependencies": {
+    "yargs": "^17.5.1",
+    "create-svelte": "^2.0.0-next.140"
+  }
+}
