@@ -10,4 +10,9 @@ git clone https://github.com/BullishVince/svelte-project-generator.git && npm i
 Create your project, run `npm run help` if you need help 😉  
 ```node
 npm run create -- -l {location} -n {name}
+```  
+
+## Examples  
+```node
+npm run create -- -l ../my-app -n my-app  
 ```
